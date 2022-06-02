@@ -27,6 +27,6 @@ public class CardOrderTest {
         form.$(".button_theme_alfa-on-white").click();
 
         //$(".alert-success").shouldHave(exactText("Ваша заявка успешно отправлена!"));
-        $("[data-test-id=order-success]").shouldHave(matchText("Ваша заявка успешно отправлена!Наш менеджер свяжется с Вами в ближайшее время."));
+        $("[data-test-id=order-success]").shouldHave(matchText("Ваша заявка успешно отправлена!*"));
     }
 }
